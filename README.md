@@ -1,14 +1,14 @@
 # Markdown 문법
 
-### 인라인 코드블럭& 줄바꿈"<br>"
+### 인라인 코드블럭& 줄바꿈
 > `<br>inline code`
 <br>`inline code`
 
 ### 문자열
-> "*기울이기*"
-> "**진한 문자열**"
-> "~~취소선~~"
-> "<u>밑줄</u>"
+> `*기울이기*`
+> "**진한 문자열**`
+> `~~취소선~~`
+> `<u>밑줄</u>`
 
 *기울이기*
 **진한 문자열**
@@ -16,11 +16,11 @@
 <u>밑줄</u>
 
 ### 리스트
-> * 리스트1
-> * 리스트2
->   * 리스트2-1
->     * 리스트2-1-1
-> * 리스트3
+> `* 리스트1`
+> `* 리스트2`
+> `  * 리스트2-1`
+> `    * 리스트2-1-1`
+> `* 리스트3`
 
 * 리스트1
 * 리스트2
@@ -29,16 +29,16 @@
 * 리스트3
 
 ### 숫자 리스트
-> 1. 숫자 리스트1
-> 2. 숫자 리스트2
+> `1. 숫자 리스트1`
+> `2. 숫자 리스트2`
 
 1. 숫자 리스트1
 2. 숫자 리스트2
 
 
 ### 이미지
-> ![Markdown Here logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon24.png)
-> [링크](http://sonim1.tistory.com)
+> `![Markdown Here logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon24.png)`
+> `[링크](http://sonim1.tistory.com)`
 
 ![Markdown Here logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon24.png) 
 [링크](http://sonim1.tistory.com)
@@ -61,11 +61,11 @@
 ---
 
 ### 테이블
-> | 한글 | 숫자 | 영어 |
-> | ------------- |:-------------:| -----:|
-> | ㅁㄴㅇ | 77 | aa|
-> | ㅁ | 88 | bb |
-> | ㄴ | 99 | cc |
+> `| 한글 | 숫자 | 영어 |
+> `| ------------- |:-------------:| -----:|`
+> `| ㅁㄴㅇ | 77 | aa|`
+> `| ㅁ | 88 | bb |`
+> `| ㄴ | 99 | cc |`
 
 | 한글 | 숫자 | 영어 |
 | ------------- |:-------------:| -----:|
@@ -74,9 +74,9 @@
 | ㄴ | 99 | cc |
 
 ### url링크
-> [1]: https://naver.com
-> [NAVER](https://naver.com "네이버.")
-> [GitHub][1]
+> `[1]: https://naver.com`
+> `[NAVER](https://naver.com "네이버.")`
+> `[GitHub][1]`
 
 [1]: https://naver.com
 [NAVER](https://naver.com "네이버.")
