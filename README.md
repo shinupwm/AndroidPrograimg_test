@@ -1,23 +1,27 @@
 # Markdown 문법
 
-### 코드 블럭
-> "code block"
-> "with no highlighting"
-code block
-with no highlighting
-
-code block
-with no highlighting
-
 ### 인라인 코드블럭
+> `inline code`
 `inline code`
 
 ### 문자열
+> *기울이기*
+> **진한 문자열**
+> ~~취소선~~
+> <u>밑줄</u>
+
 *기울이기*
 **진한 문자열**
 ~~취소선~~
+<u>밑줄</u>
 
 ### 리스트
+> * 리스트1
+> * 리스트2
+>   * 리스트2-1
+>     * 리스트2-1-1
+> * 리스트3
+
 * 리스트1
 * 리스트2
   * 리스트2-1
@@ -25,19 +29,26 @@ with no highlighting
 * 리스트3
 
 ### 숫자 리스트
+> 1. 숫자 리스트1
+> 2. 숫자 리스트2
+
 1. 숫자 리스트1
 2. 숫자 리스트2
 
 
 ### 이미지
+> ![Markdown Here logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon24.png)
+> [링크](http://sonim1.tistory.com)
+
 ![Markdown Here logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon24.png) 
 [링크](http://sonim1.tistory.com)
 
 ### 인용문
 > 인용문. 
+>>중첩
+>>>중중첩1
+>>>중중첩2
  
-### 수식
-$-b \pm \sqrt{b^2 - 4ac} \over 2a$
 ### 헤더
 # Header 1
 ## Header 2
@@ -50,19 +61,26 @@ $-b \pm \sqrt{b^2 - 4ac} \over 2a$
 ---
 
 ### 테이블
-| Tables | Are | Cool |
+> | 한글 | 숫자 | 영어 |
+> | ------------- |:-------------:| -----:|
+> | ㅁㄴㅇ | 77 | aa|
+> | ㅁ | 88 | bb |
+> | ㄴ | 99 | cc |
+
+| 한글 | 숫자 | 영어 |
 | ------------- |:-------------:| -----:|
-| column 3 is | right-aligned | $1600 |
-| column 2 is | centered | $12 |
-| zebra stripes | are neat | $1 |
+| ㅁㄴㅇ | 77 | aa|
+| ㅁ | 88 | bb |
+| ㄴ | 99 | cc |
 
 ### url링크
+> [1]: https://naver.com
+> [NAVER](https://naver.com "네이버.")
+> [GitHub][1]
+
 [1]: https://naver.com
-
-### 동영상
-[[embed url=https://www.youtube.com/watch?v=6YbBmqUnoQM]]
-
-###
+[NAVER](https://naver.com "네이버.")
+[GitHub][1]
 
 
 # git 명령어
