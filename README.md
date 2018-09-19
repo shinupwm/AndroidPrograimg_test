@@ -5,9 +5,9 @@
 <br>`inline code`
 
 ### 문자열
-> `*기울이기*`<br>
-> "**진한 문자열**`<br>
-> `~~취소선~~`<br>
+> `*기울이기*` <br>
+> `"**진한 문자열**` <br>
+> `~~취소선~~` <br>
 > `<u>밑줄</u>`
 
 *기울이기*<br>
@@ -74,11 +74,11 @@
 | ㄴ | 99 | cc |
 
 ### url링크
-> `[1]: https://naver.com`<br>
+> `[ㅁㅁ]: https://naver.com`<br>
 > `[NAVER](https://naver.com "네이버.")`<br>
 > `[첫번째][1]`<br>
 
-[1]: https://naver.com<br>
+[ㅁㅁ]: https://naver.com <br>
 [NAVER](https://naver.com "네이버.")<br>
 [첫번째][1]<br>
 
